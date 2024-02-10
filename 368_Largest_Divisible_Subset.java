@@ -17,7 +17,7 @@ class Solution {
                 }
             }
         }    
-        List<Integer> result = new ArrayList<>();
+    List<Integer> result = new ArrayList<>();
         int num = nums[maxIndex];
         for (int i = maxIndex; i >= 0; i--) {
             if (num % nums[i] == 0 && dp[i] == maxSize) {
